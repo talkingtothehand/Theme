@@ -1,0 +1,18 @@
+{
+    "name"                  :"Theme",
+    "description"           :"Basic theme plugin",
+    "namespace"             :"Theme",
+    "author"                :"Your name",
+    "keywords"              : ["theme", "plentyShop LTS", "template"],
+    "type"                  :"theme",
+    "require"               : [],
+    "serviceProvider"       :"Theme\\Providers\\ThemeServiceProvider",
+    "dataProviders"         :
+    [
+        {
+            "key"           :"Theme\\Containers\\ThemeContainer",
+            "name"          :"Dark background",
+            "description"   :"Change the background colour of the plentyShop LTS template"
+        }
+    ]
+}
